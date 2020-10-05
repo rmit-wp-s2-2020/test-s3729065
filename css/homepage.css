@@ -1,0 +1,158 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h2 {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+	grid-area: header;
+}
+
+.banner {
+	background-attachment: fixed;
+	background-position: center left;
+	background-size: cover;
+	height: 21vh;
+}
+
+p {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#icon-image {
+	float: left;
+	text-align: right;
+	padding: 5px;
+	margin: 5px;
+}
+
+#header-title {
+	color: rgb(215, 236, 20);
+	text-align: center left;
+}
+#header-subtitle {
+	color: #ffcc11;
+	text-align: center left;
+}
+#button-contract-us {
+	float: left;
+	max-height: 2.5em;
+	border: none;
+	padding: .75em 1.25em;
+	margin-left: 86px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1em;
+	font-weight: 100;
+	color: whitesmoke;
+	background-color: crimson;
+}
+#button-contract-us:hover {
+	background-color: #ffcc11;
+}
+
+.navigate-links {
+	grid-area: navi;
+}
+
+#homepage-hyperlink, #services-hyperlink, #location-hyperlink {
+	float: left;
+	max-height: 2.5em;
+	border: none;
+	padding: .75em 1.25em;
+	margin-left: 0px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1em;
+	font-weight: 100;
+	color: whitesmoke;
+	background-color: crimson;
+}
+#homepage-hyperlink {
+	grid-area: hplink;
+}
+#services-hyperlink, #location-hyperlink {
+	grid-area: servlink;
+}
+#location-hyperlink {
+	grid-area: loclink;
+}
+#homepage-hyperlink:hover, #services-hyperlink:hover, #location-hyperlink:hover {
+	background-color: #446699;
+}
+
+.main {
+	grid-area: main;
+}
+
+#introduction {
+	max-width: 900px;
+	margin: auto;
+	margin-left: 351px;
+	clear: both;
+}
+
+#introduction::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.btm-image-set {
+	grid-area: imgset;
+	position: center;
+	margin-top: 127px;
+	margin-left: 579px;
+	margin-bottom: 127px;
+	height: 21vh;
+}
+
+#small-dumbells-image {
+	grid-area: dumbells;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 21vh;
+}
+#ab-cruncher-image {
+	grid-area: cruncher;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 21vh;
+}
+#solo-dumbell-image {
+	grid-area: dumbell;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 21vh;
+}
+
+.feet {
+	grid-area: feet;
+	max-width: 900px;
+	margin: auto;
+	clear: both;
+
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-areas:'header'
+						'navi'
+						'main'
+						'imgset'
+						'feet';
+}

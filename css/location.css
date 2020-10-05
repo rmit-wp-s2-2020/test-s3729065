@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+#icon-image {
+	float: left;
+	text-align: right;
+	padding: 5px;
+	margin: 5px;
+}
+
+#button-return-home {
+	grid-area: return;
+	float: left;
+	margin: 86px;
+	margin-left: 123px;
+	max-height: 2.5em;
+	max-width: 6.5em;
+	width: 10.23em;
+	border: none;
+	padding: .75em 1.25em 1.05em 1.05em;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1em;
+	font-weight: 100;
+	color: whitesmoke;
+	background-color: crimson;
+}
+
+.location-header {
+	grid-area: sheader;
+}
+
+.location-banner {
+	background-attachment: fixed;
+	background-position: center left;
+	background-size: cover;
+	height: 21vh;
+}

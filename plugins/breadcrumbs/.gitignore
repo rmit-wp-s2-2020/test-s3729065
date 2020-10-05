@@ -1,0 +1,8 @@
+.AppleDouble/
+*.DS_Store
+node_modules/
+out/
+jsdoc/
+coverage/
+temp/
+npm-debug.log
