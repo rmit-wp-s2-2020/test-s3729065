@@ -1,6 +1,6 @@
 <!doctype html>
 <header>
-<?php require_once("../../includes/navigator.php"); ?>
+<?php require_once("/~s3729065/wp/a2/php/includes/navigator.php"); ?>
 </header>
 
 <body>
@@ -18,6 +18,6 @@
 </body>
 
 <footer>
-<?php require_once("../../includes/sitemap.php"); ?>
+<?php require_once("/~s3729065/wp/a2/php/includes/sitemap.php"); ?>
 </footer>
 </html>

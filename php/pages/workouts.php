@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 
 <header>
-	<?php require_once("../../includes/navigator.php") ?>
+	<?php require_once("../includes/navigator.php") ?>
 </header>
 
 <head>
@@ -14,9 +14,11 @@
 
 	<section class="jumbotron">
 
+	<?php $workout = []; $workout_list = []; $workout_name = "name"; ?>
+
 	<div class="row">
-		<img src="images/<?php echo $workout['image-name'];?>" alt="PHP Code Derived Workout Image" class="d-block d-sm-inline-block"/>
-		<p class="lead"><?php echo $workouts['name']?></p>
+		<img src="/~s3729065/wp/a2/images/<?php echo $workout['image-name'];?>" alt="PHP Code Derived Workout Image" class="d-block d-sm-inline-block"/>
+		<p class="lead"><?php echo $workout_list[$workout_name]?></p>
 	</div>
 	
 	<div class="row">
@@ -30,6 +32,6 @@
 </body>
 
 <footer>
-	<?php require_once("../../includes/sitemap.php"); ?>
+	<?php require_once("../includes/sitemap.php"); ?>
 </footer>
 </html>

@@ -4,7 +4,9 @@
 
 	$session = isset($_SESSION[$create_read_user_session]); // User Session
 
-	function is_logged_in() { return $session; }
+	function is_logged_in($session) { 
+		return $session;
+	}
 
 	function login($form) {
 		$email = $_POST["email"];
@@ -36,7 +38,7 @@
 		// Regular Epression for Password - Attribution: https://stackoverflow.com/a/21456918
 
 		else
-			return error_log("An error had occurred with the method statement[!?]");
+			error_log("An error had occurred with the method statement[!?]");
 	}
 
 	function user_session_out() {

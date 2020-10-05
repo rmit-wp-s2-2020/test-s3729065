@@ -21,12 +21,6 @@
 			<button id="button-contract-us" onclick="document.location='contract.php'">Join Us</button> <!--W3Schools.com: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_button_element-->
 
 		</div>
-
-		<div class="navigate-links">
-			<a id="homepage-hyperlink" href="homepage.php">Home</a>
-			<a id="services-hyperlink" href="services.php">Services</a>
-			<a id="location-hyperlink" href="location.php">Location</a>
-		</div>
 	</head>
 
 	<body class="\main">
@@ -54,7 +48,7 @@
 			<img id="ab-cruncher-image" src="images/pexels-ivan-samkov-4162547.jpg" alt="Image of a ab crunching gym equipment by user 'Ivan Samkov' from Pexels (website)">
 			<img id="solo-dumbell-image" src="images/pexels-cottonbro-4753987.jpg" alt="Image of one dumbell on the floor by user 'cottonbro' from Pexels (website)">
 
-			<a class="btn btn-outline-secondary" href="/php/states/login.php">Login?</a>
+			<a class="btn btn-outline-secondary" href="php/states/login.php">Login?</a>
 		</div>
 	</body>
 

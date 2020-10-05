@@ -1,6 +1,6 @@
 <!doctype html>
 <header>
-<?php require_once("../../includes/navigator.php"); ?>
+<?php require_once("../includes/navigator.php"); ?>
 </header>
 
 <body>
@@ -11,9 +11,9 @@
 		<h1>Login</h1>
 
 		<form class="form-group">
-			<input type="email" class="form-control" id="login-email" required/>
-			<input type="password" class="form-control" id="login-password" required/>
-			<button type="submit" class="btn btn-primary" id="login-button">Login</button>
+			<input type="email" class="form-control" id="login-email" required/><br>
+			<input type="password" class="form-control" id="login-password" required/><br>
+			<button type="submit" class="btn btn-primary" id="login-button">Login</button><br>
 		</form>
 
 	</div>
@@ -30,6 +30,6 @@ $(document).ready(function () {
 </body>
 
 <footer>
-<?php require_once("../../includes/sitemap.php"); ?>
+<?php require_once("../includes/sitemap.php"); ?>
 </footer>
 </html>

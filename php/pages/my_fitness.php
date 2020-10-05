@@ -8,7 +8,7 @@
 <?php
 require_once('../json_functions.php');
 require_once('../workouts_functions.php');
-require_once('../workouts.php');
+require_once('workouts.php');
 ?>
 
 <body>

@@ -2,7 +2,7 @@
 require_once('../user_session_manager.php');
 require_once('../user_session_functions.php');
 require_once('../workouts_functions.php');
-$user = login();
+$user = is_logged_in($session);
 $workout = list_workouts();
 $activity = get_user_activity($user['email'], $workout['workout']);
 ?>
@@ -20,14 +20,15 @@ $activity = get_user_activity($user['email'], $workout['workout']);
 
 	<section>
 		<form action="../success.php" method="post">
-			<input type="text" class="form-control" id="name-input" placeholder="Name">
-			<input type="text" class="form-control" id="description-input" placeholder="Description">
+		<div><input type="text" class="form-control" id="name-input" placeholder="Name"></div><br>
 
-			<input type="datetime-local" name="" class="form-control" id="date-time-input">
+			<div><input type="text" class="form-control" id="description-input" placeholder="Description"></div><br>
 
-			<button type="submit" class="btn btn-success btn-submit" id="form-button-submit">Submit</button>
+			<div><input type="datetime-local" name="" class="form-control" id="date-time-input"></div><br>
 
-			<div><a href="workouts.php" class="btn btn-outline-secondary btn-cancel">Cancel and Return</a></div>
+			<div><button type="submit" class="btn btn-success btn-submit" id="form-button-submit">Submit</button></div><br>
+
+			<div><a href="workouts.php" class="btn btn-outline-secondary btn-cancel">Cancel and Return</a></div><br>
 		</form>
 	</section>
 
@@ -62,7 +63,7 @@ $(".btn-submit").click(function() {
 </body>
 
 <footer>
-<?php require_once("../../includes/sitemap.php") ?>
+<?php require_once("../includes/sitemap.php") ?>
 </footer>
 
 </html>
@@ -72,7 +73,7 @@ $(".btn-submit").click(function() {
  * Use our "json_functions.php" file here.
  * Need to capture the HTML attributes as PHP values.
 */
-require_once("/php/json_functions.php");
+
 // TODO code ...
 
 // Breakline with commend here to pretty up code.

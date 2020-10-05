@@ -37,10 +37,8 @@
 <!--B R E A K L I N E-->
 <?php
 include("../user_session_functions.php");
-include("../user_session_manager.php");
 include("../security_functions.php");
 include("../general_functions.php");
-include("../json_functions.php");
 ?>
 <!--
 Code Attribution:

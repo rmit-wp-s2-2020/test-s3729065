@@ -22,9 +22,9 @@
 	<section class="navigate-links">
 
 		<nav class="navbar navbar-light bg-light">
-		<a href="../homepage.php"><img class="mh-100" id="icon-image"
+		<a href="/~s3729065/wp/a2/homepage.php"><img class="mh-100" id="icon-image"
 			style="height: 100px;"
-			src="images/abc_logo_by_daniel_surla.png" alt="ABC Logo illustrated by Daniel Surla"></a>
+			src="/~s3729065/wp/a2/images/abc_logo_by_daniel_surla.png" alt="ABC Logo illustrated by Daniel Surla"></a>
 			<ul>
 
 				<a class="nav-link" id="homepage-hyperlink" href="homepage.php">Home</a>
@@ -33,11 +33,9 @@
 			</ul>
 
 			<span>
-			<ul>
-				<li><a class="btn btn-outline-success" href="../php/states/login.php">Login</a></li>
+				<a class="btn btn-outline-success" href="/~s3729065/wp/a2/php/states/login.php">Login</a>
 				
-				<li><a class="btn btn-outline-danger" href="../php/states/logout.php">Logout</a></li>
-			</ul>
+				<a class="btn btn-outline-danger" href="/~s3729065/wp/a2/php/states/logout.php">Logout</a>
 			</span>
 
 			<span class="row">

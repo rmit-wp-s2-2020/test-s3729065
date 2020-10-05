@@ -4,7 +4,6 @@
 
 h1 {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 h2 {
@@ -125,17 +124,17 @@ p {
 	position: fixed;
 	background-color: #ff5544;
 	overflow: hidden;
-	transition: .10s ease-in-out
+	transition: .10s ease-in-out;
 }
 
 .overlay-1, .overlay-2, .overlay-3 {
 	position: fixed;
 	background-color: #ff5544;
 	overflow: hidden;
-	transition: .10s ease-in-out
+	transition: .10s ease-in-out;
 }
 
-.overlay:hover, .overlay-1, .overlay-2, .overlay-3, {
+.overlay:hover, .overlay-1, .overlay-2, .overlay-3 {
 	width: 100%;
 }
 

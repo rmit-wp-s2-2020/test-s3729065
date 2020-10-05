@@ -23,6 +23,6 @@
 	</body>
 
 	<footer>
-	<?php require_once("includes/sitemap.php"); ?>
+	<?php require_once("php/includes/sitemap.php"); ?>
 	</footer>
 </html>
