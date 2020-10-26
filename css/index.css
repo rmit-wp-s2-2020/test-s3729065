@@ -1,0 +1,41 @@
+body {
+	margin: auto;
+}
+
+#details-form-group {
+	margin: auto;
+	padding: 10px;
+}
+
+#details-name {
+	grid-area: name;
+}
+
+#details-address {
+	grid-area: address;
+}
+
+#details-age {
+	grid-area: age;
+}
+
+input[type=text] {
+	width: auto;
+	height: auto;
+	margin: auto;
+	padding: 10px;
+}
+
+input[type=number] {
+	width: auto;
+	height: auto;
+	margin: auto;
+	padding: 10px;
+}
+
+.grid {
+	display: grid;
+	grid-template-rows: 'name'
+						'age'
+						'address';
+}
